@@ -31,4 +31,10 @@ public class IndexControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(view().name("index"));
     }
+
+    @Test
+    public void justAtriggerTest() throws Exception {
+        assert (true);
+    }
+
 }
